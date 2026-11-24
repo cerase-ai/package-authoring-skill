@@ -1,0 +1,9 @@
+# Registry display text in the platform's other locales.
+#
+# The base fields -- SKILL.md's `description` and cerase.json's -- are the SOURCE
+# locale and are English; package_translations forbids a row for it, so this file
+# can only ever hold the others. It is registry metadata: the seeder keeps it out
+# of the bundle that ships to the agent.
+it:
+  display_name: "Scrittura di pacchetti per il Marketplace"
+  description: "Usa quando la persona vuole pubblicare, proporre o aggiornare un pacchetto del Marketplace Cerase, oppure chiede come fare una competenza, un pacchetto di conoscenza o un connettore che altri possano installare. Cerca prima nel Marketplace se esiste già qualcosa di simile, sceglie il tipo, segue le regole del Marketplace, controlla i file e invia una bozza privata solo quando la persona lo chiede. Senza una chiave dell'organizzazione scrive e controlla il pacchetto, e lo invia quando qualcuno la crea nel pannello del Marketplace."
