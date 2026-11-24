@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "namespace": "studio.guidance",
+  "name": "package-authoring",
+  "type": "skill",
+  "display_name": "Package Authoring",
+  "description": "Guides a person through writing a package for the Cerase Marketplace: a skill, a knowledge package or a connector. Load it when the person wants to publish, submit or update a package, or asks how to make a skill, a knowledge package or a connector that others can install. It searches the Marketplace first, chooses the type, follows the Marketplace rules, validates the files and submits a private draft only when asked.",
+  "license": "MIT"
+}
