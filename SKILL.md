@@ -15,12 +15,11 @@ The procedure needs these tools from the Marketplace's MCP server: `search_packa
 ## Procedure
 
 1. **Search first.** Call `search_packages` with the vendor, the task and synonyms of both. If a package already does the job, show it with `get_package` and propose improving it instead of writing a second one. If it belongs to the person's organization, the change goes through `update_package`. If it belongs to another publisher, tell the person it is not theirs to change and stop, unless what they want is clearly a different package.
-2. **Choose the type** from what the package holds, and say the choice and the reason in one line:
+2. **Choose the type** from what the package holds, say the choice and the reason in one line, and read only the reference for that type. If the idea mixes two types, write it as two packages. The types:
    - steps the assistant follows: a skill, see `references/skill.md`;
    - material the assistant consults: a knowledge package, see `references/knowledge.md`;
    - access to another system's data or actions: a connector, see `references/connector.md`;
    - a starting file or layout: a template.
-   Read only the reference for the chosen type. If the idea mixes two types, write it as two packages.
 3. **Read `authoring_rules`** for that type and follow it for every field. The rules the server gives are the limits; this skill does not repeat them, and when this skill and the server differ, the server is right.
 4. **Write the files**, following the reference for the type and the rules below.
 5. **Run `validate_package`** on the result and fix every refusal it returns, then run it again. Repeat until it returns none. Never submit a package that has a refusal.
