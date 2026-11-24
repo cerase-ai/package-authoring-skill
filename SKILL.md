@@ -29,10 +29,10 @@ The procedure needs these tools from the Marketplace's MCP server: `search_packa
 ## Rules for every package
 
 - A stranger can install it. It names no client, person, account, mailbox, address, internal path or other project. For each string, ask whether it would still make sense if a stranger installed it in their own company. Use invented subjects in examples, such as a bakery or a tool called "Acme Tasks".
-- It is written in English, in plain declarative sentences, without slogans or motivational framing.
+- It is written in English, so that publishers and installers in any country can read it, in plain declarative sentences, without slogans or motivational framing.
 - One package does one job. A second job is a second package.
 - It holds no credential, token, key or password, in any file or example.
-- It adds no warning about a vendor's terms of service or the platforms a connector acts on. The customer accepts those with the tool.
+- Its text covers what the package does and what it needs to work. A vendor's terms of service, and the rules of the platforms a connector acts on, are agreed between the customer and the vendor when the customer connects an account, and the package leaves them to that agreement.
 
 ## When something is missing
 
